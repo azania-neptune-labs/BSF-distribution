@@ -1,0 +1,1295 @@
+/*=====================================================
+       Corporate Agency Website Stylesheet
+             Body Core Stylesheet
+======================================================*/
+
+/*-- body Section --*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 980px;
+    }
+    header.smaller .navbar-default {
+        background-color: white;
+    }
+    header.smaller .navbar li {
+        padding-top: 4px;
+    }
+    header.smaller .navbar-brand > img {
+        height: 100%;
+        max-width: 85px;
+        padding: 4px 0;
+        margin: 0;
+        transition-duration: 0.5s;
+    }
+
+    header.smaller nav {
+        height: 60px;
+        padding: 0;
+    }
+
+}
+
+
+/*=====================================================
+             Header Section Started
+======================================================*/
+
+header .container {
+    width: 1010px;
+}
+
+.navbar li a {
+    color: black;
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.92);
+    border-color: none;
+}
+
+.navbar {
+    border: 0;
+    height: 16%;
+    margin-bottom: 0;
+    border-radius: 0;
+    letter-spacing: 1px;
+    font-size: 12px !important;
+    font-family: Montserrat, sans-serif;
+    transition: all 0.4s;
+    padding: 40px 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-brand > img {
+    display: block;
+    padding: 0;
+    margin-top: -14px;
+    height: 70px;
+    width: 70px;
+
+}
+
+.navbar li {
+    padding-left: 10px;
+    line-height: 51px;
+    padding: 0 0;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-toggle {
+    border-color: transparent;
+    color: #39b54a;
+}
+
+.navbar-nav li a.active {
+    color: #39b54a;
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #39b54a;
+    text-decoration: underline;
+}
+
+/*=====================================================
+             Header Section Ended
+======================================================*/
+
+/*=====================================================
+             Jumbotron Section Started
+======================================================*/
+
+.jumbotron {
+    width: 100%;
+    height: 702px;
+    background-image: url("../img/banner-image.jpg");
+    background-position: center 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    opacity: 0.7;
+
+
+}
+
+
+.opa
+{
+    font-weight: bold;
+
+}
+.opa h1,h3{
+
+    text-transform: translate(-50%, 50%);
+    color: white;
+    white-space: nowrap;
+
+}
+.banner-contant {
+    padding: 150px 0;
+}
+
+.jumbotron h1 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 63.34px;
+    letter-spacing: -2px;
+    font-weight: bold;
+}
+
+.jumbotron h3 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 57px;
+    padding-bottom: 30px;
+    letter-spacing: -2px;
+}
+
+.jumbotron .btn {
+    text-transform: uppercase;
+    width: 152px;
+    height: 46px;
+    font-size: 13.34px;
+    padding: 14px 0;
+    background-color: #39b54a;
+    border: none;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+.jumbotron .btn:hover {
+    background-color: #3dd652;
+}
+
+/*=====================================================
+             Jumbotron Section Ended
+======================================================*/
+
+/*=====================================================
+             Main-contant section start 
+======================================================*/
+
+.main-contant {
+    background-color: #001230;
+    padding: 102px 0;
+}
+
+.main-contant .services {
+    padding-bottom: 102px;
+}
+
+.services .s1 {
+    background: #fff;
+    text-align: center;
+    box-shadow: 10px 10px #00000030;
+}
+
+.services .s2 {
+    text-align: left;
+    background: none;
+}
+
+.services .s1 img {
+    margin: 0 auto;
+}
+
+.services .s1 h3 {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: bold;
+    font-size: 17.34px;
+    text-transform: uppercase;
+}
+
+.services .s1 p {
+    font-size: 13px;
+    color: #a3a3a3;
+    padding: 0 30px;
+    line-height: 25px;
+    padding-bottom: 60px;
+}
+
+.services .s2 h2 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 33px;
+    letter-spacing: -4px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.services .button {
+    text-align: center;
+}
+
+.services .btn {
+    width: auto;
+    height: 46px;
+    border: none;
+    padding: 14px 33px;
+    font-weight: bold;
+    font-size: 13.34px;
+    margin-bottom: 97px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    background-color: #39b54a;
+}
+
+.services .btn:hover {
+    background-color: #3dd652;
+}
+
+/* ---- Theme-Section Start ---- */
+
+/*---- Form-section -----*/
+
+.contact-section .top {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section .form .form-control1 {
+    margin-right: 42px;
+    width: 45%;
+    height: 65px;
+    color: white;
+    border: 0;
+    font-size: 17px;
+    border-radius: 0;
+    padding: 25px 15px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+
+.contact-section .form .form-control2 {
+    width: 45%;
+    height: 65px;
+    color: white;
+    border: 0;
+    font-size: 17px;
+    border-radius: 0;
+    padding: 25px 15px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+
+.contact-section .form {
+    width: 50%;
+    height: auto;
+}
+
+.contact-section .form h3 {
+    font-size: 33.56px;
+    letter-spacing: -3px;
+    margin-bottom: 56px;
+}
+
+.contact-section .form .form-control {
+    height: 65px;
+    color: white;
+    font-size: 17px;
+    border-radius: 0;
+    padding: 25px 15px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+
+.contact-section .form textarea.form-control {
+    height: 196px;
+}
+
+.contact-section .form.form-group {
+    margin-bottom: 0;
+}
+
+.contact-section .form.form ::placeholder {
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1;
+}
+
+.contact-section .form :-ms-input-placeholder {
+    color: white;
+}
+
+.contact-section .form ::-ms-input-placeholder {
+    color: white;
+}
+
+.contact-section .form .btn {
+    text-transform: uppercase;
+    width: 152px;
+    height: 46px;
+    font-size: 13.34px;
+    background-color: #39b54a;
+    border: none;
+    font-weight: bold;
+    margin-top: 0;
+    border-radius: 100px;
+}
+
+.contact-section .form .btn:hover {
+    background-color: #3dd652;
+}
+
+.contact-section .form-group {
+    margin-bottom: 0;
+}
+
+.contact-section .row {
+    padding-bottom: 110px;
+}
+
+@media (max-width: 992px) {
+    .contact-section .col-sm-12 {
+        width: 100%;
+    }
+    .navbar-brand {
+        padding: 0 15px;
+        margin-top: 0;
+    }
+    nav {
+        padding: 0;
+    }
+}
+
+/*=====================================================
+            Contact Section Ended
+======================================================*/
+
+/*=====================================================
+            footer Section Started
+======================================================*/
+
+    .pic
+    {
+        width:85px;
+        height: 85px;
+    }
+
+footer {
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 66px;
+    text-transform: uppercase;
+    background-color: #000000;
+    border-top: 1px solid gray;
+
+}
+
+footer ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-bottom: -9px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    color: #d7d7d7;
+    font-size: 9.34px;
+    font-weight: bold;
+    text-align: center;
+    ;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+}
+
+footer span a {
+    cursor: pointer;
+    color: #39b54a;
+    text-decoration: underline;
+}
+
+footer span a:hover {
+    color: rgb(58, 181, 74);
+}
+
+footer li a {
+    color: white;
+    padding: 16px;
+    display: block;
+    font-size: 13.34px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+footer p a {
+    padding: 0;
+}
+
+footer li a:hover {
+    color: #39b54a;
+    text-decoration: none;
+}
+
+/*=====================================================
+    footer Section Ended
+=
+
+/*===================================
+    About-us Media Q
+===================================*/
+
+@media screen and (max-width: 992px) {
+    .jumbotron {
+        width: 100%;
+        padding: 0 0;
+        background-position: bottom;
+    }
+    .navbar {
+        padding: 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #about-us .image {
+        float: left;
+        width: 100%;
+        height: auto;
+        shape-margin: 20px;
+        margin-right: 50px;
+        margin-bottom: 52px;
+    }
+    .navbar-brand > img {
+        margin-top: 7px;
+    }
+}
+
+/*=====================================
+    About-us Section Ended
+=====================================*/
+
+/*=======================================
+        Services section start 
+=======================================*/
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1001px;
+    }
+}
+
+body {
+    background: #001230;
+}
+
+#main-services .row {
+    margin: 0 30px;
+    margin-bottom: 70px;
+}
+
+#main-services {
+    margin-bottom: 130px;
+}
+
+/*-- Header Section ----*/
+
+.jumbotron h1 {
+    padding: 0;
+    margin-top: 125px;
+    padding-bottom: 10px;
+}
+
+.banner-contant {
+    padding: 40px 0;
+}
+
+.services-2 {
+    background: white;
+}
+
+.services-2 p {
+    margin: 0;
+    color: #585f6c;
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: 600;
+    padding: 0 0;
+    font-family: Helvetica;
+    margin-bottom: 50px;
+}
+
+.services-2 .image {
+    float: left;
+    width: 482px;
+    height: 420px;
+    shape-margin: 20px;
+    margin-right: 50px;
+    margin-bottom: 52px;
+}
+
+.services-2 h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: black;
+    padding: 45px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*============================================
+     Service-page Media Q
+=============================================*/
+
+@media screen and (max-width: 992px) {
+    /*-- Header Section ---*/
+    #main-services .row {
+        margin: 30px;
+    }
+    .services-2 h3 {
+        font-size: 25px;
+        padding: 40px 0;
+        font-weight: bold;
+    }
+    .banner-contant {
+        padding: 0 0;
+    }
+    .services-2 .image {
+        float: left;
+        width: 100%;
+        height: auto;
+        shape-margin: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .navbar-nav li a.active {
+        color: #39b54a;
+        text-decoration: underline;
+    }
+}
+
+/*====================================
+        Services section ended
+=====================================*/
+
+/*====================================
+    Portfolios Section Start 
+=====================================*/
+
+.main {
+    width: 100%;
+    height: auto;
+    background: #001230;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 76px;
+}
+
+.main p {
+    font-size: 33.56px;
+    color: white;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+/* Add padding BETWEEN each column */
+
+.main .row,
+.main .row > .column {
+    padding: 8px;
+}
+
+.main .heading {
+    padding-bottom: 65px;
+}
+
+.main li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Clear floats after rows */
+
+.main .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main .button {
+    text-align: center;
+}
+
+.main .btn {
+    height: 46px;
+    font-size: 13.34px;
+    border: none;
+    font-weight: bold;
+    margin-top: 83px;
+    padding: 0 20px;
+    margin-bottom: 76px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    background-color: #39b54a;
+}
+
+.main .btn:hover {
+    background-color: #3dd652;
+}
+
+/*---- social-links section ----*/
+
+.main .main-box {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main li {
+    position: relative;
+}
+
+.main img {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.main .inner-text {
+    opacity: 0;
+    position: absolute;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    font-size: 20.23px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.79);
+}
+
+.inner-text .fa {
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    padding: 20px 25px;
+    background: #39b54a;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.main .inner-text .fa {
+    width: 58px;
+    height: 58px;
+    color: white;
+    font-size: 28px;
+    padding: 16px 25px;
+    background: #39b54a;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.main li:hover .inner-text {
+    opacity: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .main .btn {
+        width: 100%;
+        height: 46px;
+        font-size: 10px;
+        padding: 0 20px;
+    }
+    .theme-section .image {
+        clear: both;
+    }
+    .services .s1 {
+        width: 100%;
+    }
+    .services .s2 {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .navbar {
+        height: 90px;
+    }
+    .navbar-brand > img {
+        width: 85px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        background: #e7e7e7;
+    }
+}
+
+/*=======================================
+        Portfolios section Ended 
+=======================================*/
+
+/*=====================================
+    Contact-us section start 
+=====================================*/
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 23px;
+    height: 4px;
+}
+
+#contact {
+    padding-top: 60px;
+    border-bottom: 1px solid gray;
+    background-color: #001230;
+}
+
+#contact h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+#contact p {
+    color: rgba(255, 255, 255, 0.6784313725490196);
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+#contact .btn {
+    margin-top: 45px;
+    text-transform: uppercase;
+    width: 152px;
+    height: 46px;
+    font-size: 24;
+    background-color: #39b54a;
+    border: none;
+    border-radius: 0;
+}
+
+#contact .form-control,
+.form-control {
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 0;
+    height: 58px;
+}
+
+#contact .btn:hover {
+    background-color: #3dd652;
+}
+
+/*===========================================
+    Contact-us Section Ended
+===========================================*/
+
+/*============================================
+     footer Section Started
+=============================================*/
+
+/*====== Media Query (Portfolio) ======*/
+
+@media screen and (max-width: 992px) {
+    /*---- Footer section started----*/
+    footer {
+        padding: 0 20px;
+        padding: 50px 20px;
+    }
+    footer li {
+        display: inline-block;
+        padding: 5px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        border: 1px solid green;
+    }
+    footer .semicolon {
+        visibility: hidden;
+    }
+    footer li a {
+        padding: 0;
+        font-size: 12px;
+    }
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+    footer p {
+        padding: 5px 20px;
+        ;
+    }
+    /*--In footer Header Section ---*/
+    header {
+        height: 70px;
+    }
+    nav .container {
+        width: 100%;
+        padding: 0 0;
+    }
+    .navbar {
+        width: 100%;
+        height: 70px;
+    }
+    .navbar li {
+        padding: 0;
+    }
+    .navbar-brand > img {
+        padding: 0;
+        width: 91px;
+    }
+    .navbar-nav li a:hover,
+    .header .navbar-nav li .active {
+        color: #39b54a;
+        text-decoration: underline;
+    }
+    .navbar-toggle {
+        margin: 17px 34px;
+        padding: 8px 10px;
+    }
+    .navbar .nav {
+        margin-right: 10px;
+         text-align: center;
+        padding-top: 10px;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 23px;
+        height: 4px;
+    }
+    .jumbotron {
+        height: 400px;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .jumbotron h1 {
+        padding: 0;
+        margin: 0;
+        padding-top: 62px;
+    }
+    .jumbotron h3 {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 36px;
+        padding-bottom: 22px;
+        letter-spacing: 0px;
+    }
+    .services-2 p {
+        padding: 0;
+    }
+    .portfolio li {
+        margin-bottom: 20px;
+    }
+    .theme-contant .fa {
+        right: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .theme-contant .fa {
+        right: 51px;
+    }
+    .portfolio .inner-text {
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar-default {
+        background-color: white;
+    }
+    .navbar .nav {
+        padding-top: 0;
+    }
+    .jumbotron h1 {
+        font-size: 35px;
+    }
+    .jumbotron h3 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .services .btn {
+        margin-bottom: 50px;
+    }
+    .portfolio {
+        padding-top: 30px;
+    }
+    .contact-section .comments .comment1 img,
+    .comments .comment2 img,
+    .comments .comment3 img {
+        width: 100%;
+        object-fit: cover;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .contact-section .comments .comment1,
+    .comments .comment2 {
+        margin-bottom: 35px;
+    }
+    .contact-section .comments .comment1 .inner-text p,
+    .comments .comment2 .inner-text p,
+    .comments .comment3 .inner-text p {
+        padding-right: 0;
+        font-weight: 500;
+    }
+    .contact-section .row {
+        padding-bottom: 25px;
+    }
+    .portfolio li {
+        margin-bottom: 20px;
+    }
+    .theme-section .theme-contant {
+        padding-right: 0;
+    }
+    .services .s2 h2 {
+        font-size: 26px;
+        letter-spacing: 0;
+        padding-bottom: 20px;
+    }
+    .portfolio .btn {
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .contact-section .form h3 {
+        font-size: 26.56px;
+        letter-spacing: 0;
+        margin-bottom: 31px;
+    }
+    .contact-section {
+        padding-top: 20px;
+    }
+    .contact-section .comments h3 {
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+    .theme-section h3 {
+        font-size: 28px;
+        letter-spacing: 0;
+    }
+    .types h3,
+    .types .center h3,
+    .types .left h3 {
+        font-size: 26.56px;
+    }
+    .portfolio h3 {
+        font-size: 21.56px;
+    }
+    .theme-section h4 {
+        font-size: 14px;
+    }
+    .theme-section {
+        padding-bottom: 65px;
+    }
+    .portfolio img {
+        height: 300px;
+    }
+}
+
+/*============================================
+     footer Section Ended
+=============================================*/
+
+/*=====================================================
+    Index-page Media Q
+======================================================*/
+
+
+@media (min-width: 1024px) {
+    figure {
+        margin: 0 0 20px;
+    }
+    .contact-section .row {
+        padding-bottom: 50px;
+    }
+    .main-contant .services {
+        padding-bottom: 70px;
+    }
+    .theme-section {
+        padding-bottom: 70px;
+    }
+    .main-contant {
+        background-color: #001230;
+        padding: 80px 0;
+    }
+    .services .s2 h2 {
+        font-size: 24px;
+        letter-spacing: 0px;
+        padding-bottom: 35px;
+        line-height: 35px;
+    }
+    footer {
+        padding: 45px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 1005px;
+    }
+    .navbar-brand > img {
+        margin-top: -13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 98%;
+    }
+    .main-contant .services {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1364px) {
+
+    .contact-section .comments .comment1,
+    .comments .comment2 {
+        margin-bottom: 50px;
+    }
+
+    .contact-section .comments h3 {
+        padding-bottom: 40px;
+    }
+    .contact-section .form-group {
+        margin-bottom: -13px;
+    }
+    .contact-section .form .form-control1 {
+        margin-right: 24px;
+        width: 47%;
+    }
+    .contact-section .form .form-control2 {
+        width: 45%;
+    }
+    .contact-section .form h3 {
+        margin-bottom: 45px;
+    }
+    .contact-section .row {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /*-- Header Section Start---*/
+    nav .container {
+        width: 100%;
+        padding: 0 0px;
+    }
+    .navbar {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar-brand > img {
+        padding: 0;
+        width: 91px;
+        margin-left: 20px;
+        margin-top: 8px;
+    }
+    .navbar-nav li a:hover,
+    .header .navbar-nav li .active {
+        color: #39b54a;
+        text-decoration: underline;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 23px;
+        height: 4px;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #39b54a;
+    }
+    /*-- Header Section Ended ---*/
+    /*-- jumbotron Section Start ---*/
+    .jumbotron {
+        padding: 75px 0
+    }
+
+    .jumbotron .main p {
+        font-size: 25.56px;
+    }
+
+    .jumbotron h1 {
+        font-size: 40px;
+        padding: 0;
+    }
+    .jumbotron h3 {
+        font-size: 23.34px;
+    }
+    .jumbotron .btn {
+        font-size: 12px;
+    }
+    .banner-contant {
+        padding: 0 0;
+    }
+    /*-- jumbotron Section Ended ---*/
+    .types p {
+        padding-bottom: 40px;
+    }
+    .main-contant {
+        padding-top: 104px;
+        padding-bottom: 50px;
+    }
+    /*---- Footer section Start ----*/
+    footer {
+        padding-bottom: 5px;
+    }
+    footer li active {
+        color: #39b54a;
+        text-decoration: underline;
+    }
+    footer .semicolon {
+        visibility: hidden;
+    }
+    footer li a {
+        padding: 0;
+        font-size: 14px;
+    }
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+    /*---- Footer section Ended ----*/
+}
+
+@media screen and (max-width: 764px) {
+    .navbar-default .navbar-nav > li > a {
+        padding: 0 37px;
+        padding-bottom: 17px;
+    }
+    footer li {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-section .form .form-control1 {
+        margin-right: 0;
+        width: 100%;
+    }
+    .portfolio .row,
+    .portfolio .row > .column {
+        margin-bottom: 20px;
+    }
+    .contact-section .form .form-control2 {
+        width: 100%;
+    }
+    .main .btn {
+        width: 100%;
+        height: 46px;
+        font-size: 10px;
+        padding: 0 20px;
+    }
+    .services .s1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .services .s2 {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .main {
+        padding-top: 35px;
+    }
+    .main .heading {
+        padding-bottom: 40px;
+    }
+    .navbar {
+        height: 70px;
+        background: white;
+    }
+    .navbar-brand > img {
+        width: 85px;
+    }
+    .main-contant {
+        padding-top: 60px;
+    }
+    .portfolio .btn {
+        margin-top: 40px;
+    }
+    .contact-section .row {
+        padding-bottom: 50px;
+    }
+    .contact-section .form .form-control1,
+    .contact-section .form .form-control2,
+    .contact-section .form .form-control {
+        margin-bottom: 20px;
+    }
+    .contact-section .form h3 {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        background: #e7e7e7;
+    }
+
+}
+
+/*=====================================================
+    Index-page Ended
+======================================================*/
